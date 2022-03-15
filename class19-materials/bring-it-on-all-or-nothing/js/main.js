@@ -1,14 +1,22 @@
 // *Variables*
 // Declare a variable, assign it a boolean, and alert the value
+let proof = true;
+alert(proof);
+
 
 
 // Declare a variable, reassign it to your favorite color, and console log the value
-
+let bog = "yellow"
+bog = "green"
+console.log(bog)
 
 // *Functions*
 // Create a function that takes in 4 numbers and returns the sum of the first 3 numbers divided by the fourth. Return the result. Call the function.
-
-
+function divideFour(one, two, three, four){
+    sum = one + two + three / four
+    alert(sum)
+}
+divideFour(7,89,22, 15)
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
 
 
